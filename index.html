@@ -1,0 +1,133 @@
+<!DOCTYPE >
+<html lang="el">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cut Call Barbershop</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <style>
+    /* Show only on mobile */
+    .mobile-gallery-heading {
+      display: none;
+    }
+
+    @media (max-width: 768px) {
+      .media-showcase {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .gallery-column h2 {
+        display: none;
+      }
+
+      .mobile-gallery-heading {
+        display: block;
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        margin: 2rem 0 1rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+<div class="cutcall-vertical-strip">
+  <div class="cutcall-vertical-track">
+    <div class="cutcall-sequence">
+      C<br>U<br>T<br><br>C<br>A<br>L<br>L<br><br>
+      C<br>U<br>T<br><br>C<br>A<br>L<br>L<br><br>
+      C<br>U<br>T<br><br>C<br>A<br>L<br>L<br><br>
+      C<br>U<br>T<br><br>C<br>A<br>L<br>L<br><br>
+      C<br>U<br>T<br><br>C<br>A<br>L<br>L<br><br>
+    </div>
+    <div class="cutcall-sequence">
+      C<br>U<br>T<br><br>C<br>A<br>L<br>L<br><br>
+      C<br>U<br>T<br><br>C<br>A<br>L<br>L<br><br>
+      C<br>U<br>T<br><br>C<br>A<br>L<br>L<br><br>
+      C<br>U<br>T<br><br>C<br>A<br>L<br>L<br><br>
+      C<br>U<br>T<br><br>C<br>A<br>L<br>L<br><br>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+ 
+
+
+ <section class="hero">
+  <!-- 🎥 Video Background -->
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="/videos/hero.mp4" type="video/mp4" />
+    Το βίντεο δεν υποστηρίζεται από τον περιηγητή σας.
+  </video>
+
+  <!-- Optional logo overlay -->
+  
+
+  <!-- Hero Content -->
+  <div class="overlay overlay-center" data-aos="fade-up" data-aos-delay="200">
+<h1 data-aos="zoom-in" data-aos-delay="400">
+  ΚΑΛΩΣ ΗΡΘΕΣ ΣΤΟ CUT CALL
+  <img src="/images/cat-logo.png" alt="🐈‍⬛" class="emoji-inline" />
+</h1>
+
+
+    <p data-aos="fade" data-aos-delay="600">ΚΛΕΙΣΕ ΤΟ ΡΑΝΤΕΒΟΥ ΣΟΥ</p>
+  
+    
+    <div class="buttons" data-aos="fade-up" data-aos-delay="800" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+      <a href="https://cutcallbarbershop.setmore.com" class="btn">ΔΡΟΣΙΑ</a>
+      <a href="https://cutcallchk.setmore.com" class="btn">ΧΑΛΚΙΔΑ</a>
+    </div>
+  </div>
+</section>
+
+
+  
+
+
+
+  <!-- Gallery + Video Section -->
+  <section class="media-showcase" id="gallery">
+    
+    <!-- Mobile Title on top -->
+    <h2 class="mobile-gallery-heading">Gallery</h2>
+
+    <!-- Video -->
+    <div class="video-column" data-aos="fade-left">
+      <div class="phone-frame">
+        <video src="/videos/promo.mp4" autoplay muted loop playsinline></video>
+      </div>
+    </div>
+
+    <!-- Gallery images -->
+    <div class="gallery-column" data-aos="fade-right">
+      <h2>Gallery</h2> <!-- Only visible on desktop -->
+      <div class="gallery-grid">
+        <img src="/images/image5.jpg" alt="Gallery image 1">
+        <img src="/images/image6.jpg" alt="Gallery image 2">
+        <img src="/images/image7.jpg" alt="Gallery image 3">
+        <img src="/images/image12.jpg" alt="Gallery image 4">
+        <img src="/images/image11.jpg" alt="Gallery image 5">
+        <img src="/images/image10.jpg" alt="Gallery image 6">
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
